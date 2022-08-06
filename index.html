@@ -20,7 +20,7 @@
           </div>
         <h3 class="text-center text-light fs-6">Moneda a convertir:</h3>
         <select class="form-select form-select-sm" aria-label=".form-select-sm example" id="currencyToChange">
-            <option selected class="text-center">Selecciona moneda</option>
+            <option selected value="" class="text-center">Selecciona moneda</option>
             <option value="dolar">Dolar</option>
             <option value="euro">Euro</option>
           </select>
@@ -30,8 +30,10 @@
         </div> 
         </div>
       </div>
-      <div id="chartContainer"></div>
-    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+      <div>
+        <canvas id="myChart"></canvas>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="assets/js/main.js" type="module"></script>
   </body>
